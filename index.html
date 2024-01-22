@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+      
+        var nome 
+        var endereço = "Rua Criciuma,408";
+        var telefone = "11 91128-0718";
+        var studing
+        var idade
+        const anoNascimento = 2005;
+        idade = prompt("qual sua idade?")
+
+        if(idade <=12 && idade < 17){
+            alert("Ainda brinca...")
+
+            }else if(idade >= 18 && idade < 24) alert("Parabens, hora de tirar a carta")
+
+            else if(idade > 25 && idade < 40){alert("nao precisa morar")
+
+            }else if(idade >= 50 && idade < 100)alert("Nada de netos")
+           
+            
+       
+
+        nome = prompt("Qual seu nome");
+        studing = confirm("Esta estudando no momento?");
+        console.log(studing);
+        if(studing){
+            alert("Parabens")
+        }else{
+            alert("vamos estudar")
+        }
+
+        
+        document.write(nome + "<br>");
+        document.write(endereço + "<br>");
+        document.write(telefone + "<br>");
+        document.write(anoNascimento + "<br>");
+        document.write(idade + "<br>");
+
+
+        console.log("Estou aqui...");
+
+        alert("você chegou aqui...");
+    </script>
+
+
+    
+    <p>escrito no html</p>
+    
+</body>
+</html>
